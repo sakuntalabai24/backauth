@@ -34,4 +34,4 @@ database.once("connected",() => {
 
 });
 
-app.use("/api",route)
+app.use("/",route)
