@@ -19,4 +19,8 @@ router.post("/post", async (req, res) => {
     }
 });
 
+router.get('/getAll',(req, res)=>{
+    res.send('Get by ID API')
+});
+
 module.exports = router;
